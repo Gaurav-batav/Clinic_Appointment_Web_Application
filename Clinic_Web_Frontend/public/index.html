@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docmed</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="%PUBLIC_URL%/assets/img/favicon.png"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="%PUBLIC_URL%/assets/css/magnific-popup.css"
+    />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/nice-select.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/flaticon.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/gijgo.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/animate.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/slicknav.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- React App Root -->
+    <div id="root"></div>
+
+    <!-- JavaScript Files -->
+    <script src="%PUBLIC_URL%/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/owl.carousel.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/isotope.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/ajax-form.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.counterup.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/scrollIt.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.scrollUp.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/wow.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/nice-select.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.slicknav.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/plugins.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/gijgo.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+
+    <!-- Custom Inline Script -->
+    <script>
+      $(document).ready(function () {
+        // Datepicker Initialization
+        $("#datepicker").datepicker({
+          iconsLibrary: "fontawesome",
+          icons: {
+            rightIcon: '<span class="fa fa-caret-down"></span>',
+          },
+        });
+
+        $("#datepicker2").datepicker({
+          iconsLibrary: "fontawesome",
+          icons: {
+            rightIcon: '<span class="fa fa-caret-down"></span>',
+          },
+        });
+
+        // Select2 Initialization
+        $(".js-example-basic-multiple").select2();
+      });
+    </script>
+  </body>
+</html>
